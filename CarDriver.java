@@ -27,7 +27,9 @@ public class CarDriver {
 		myCar.setMake(JOptionPane.showInputDialog("Set make: "));
 		
 		JOptionPane.showMessageDialog(null,userCar.toString());
+		
 		System.out.println("Number of cars: " + Car.count);
+		
 		System.out.println("userCar equal to myCar ? " + userCar.equals(myCar));
 		System.out.println("userCar equal to hisCar ? " + userCar.equals(hisCar));
 		System.out.println("userCar equal to herCar ? " + userCar.equals(herCar));
